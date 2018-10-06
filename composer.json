@@ -1,5 +1,5 @@
 {
-    "name": "eRuido/eRuido-Cloud-Tools-Community-Edition",
+    "name": "eruido/cloud-tools-community-edition",
     "description": "Scripts, tips and tools to replicate and send your Noise measuremnts data to the cloud",
     "require": {
         "php": "^5.3.3 || ^7.0"
