@@ -9,7 +9,7 @@ Included are examples for FTP and Azure Blob Storage
 
 Upload you device Statistics to your cloud provider
 
-iN ORDER TO TAKE ADVANTAGE OF these scripts you will nedd the following third party tools,
+In order to make the best use of these scripts you will need the following third party tools,
 
 dBAMonitor R8or higher (get it at www.eruido.og)
   eRuido sonometric software properly configured. (Not a database admin tool)
