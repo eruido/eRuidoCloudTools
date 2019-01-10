@@ -9,13 +9,13 @@ print "Starting now"
 
 :next
 
-	sqlcmd -S ERUIDO1807 -i LOAD_local_DATA_BUFFER.SQL
+	sqlcmd -S MY_MSSQLSERVEREXPRESS_SERVER_NAME -i LOAD_local_DATA_BUFFER.SQL
 
-	sqlcmd -S ERUIDO1807 -i send2cloud.sql
+	sqlcmd -S MY_MSSQLSERVEREXPRESS_SERVER_NAME -i send2cloud.sql
 
-	sqlcmd -S ERUIDO1807 -i LOAD_local_LEQ60.sql
+	sqlcmd -S MY_MSSQLSERVEREXPRESS_SERVER_NAME -i LOAD_local_LEQ60.sql
 
-	sqlcmd -S ERUIDO1807 -i Send2Cloud_Stats.sql
+	sqlcmd -S MY_MSSQLSERVEREXPRESS_SERVER_NAME -i Send2Cloud_Stats.sql
 
 	TIMEOUT /T 1
 
