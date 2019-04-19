@@ -1,4 +1,4 @@
-# eRuidoCloudTools
+# eRuido IOT CloudTools
 Friendly Cloud scripts  to sincronize your eRuido Noise Station to cloud services
 
 This scripts are writtem for you to:
