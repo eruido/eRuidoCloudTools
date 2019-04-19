@@ -1,7 +1,7 @@
 # eRuido IOT CloudTools
 Friendly Cloud scripts  to sincronize your eRuido Noise Station to cloud services
 
-This scripts are writtem for you to:
+This scripts are written for you to:
 
 Upload eRuido Noise Monitoring Solution device data to a SQL server.
 Upload Audio files to your web server or CDN. 
