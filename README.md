@@ -15,8 +15,12 @@ dBAMonitor R8or higher (get it at www.eruido.og)
   eRuido sonometric software properly configured. (Not a database admin tool)
   You can download from www.eruido.org. It will run for 24 hours each time. Full featured.
 
+  dBAMonitor R9 Release candidate 1
+Is READY  for RELEASE. 
+
 SQL Server Express with SQLCMD enabled
-  Needed to store data captured by dBAMonitor in a local SQL server instance. It will actas a data buffer before sending noise measurements to the cloud.
+  Needed to store data captured by dBAMonitor in a local SQL server instance. 
+It will act as local data buffer before sending noise measurements to the cloud.
   
 Notepadd++ or text editor
   Usefull to edit some configuration files
@@ -28,6 +32,8 @@ AZCopy
   Microsoft Azure copy utility to send your audios to your blob storage account
 
 FFMPEG Comand line executable
-  FFMPeg is an open source package wich will allow our scripts to compress .WAV files captured by dBAMonitor into a lighter format like ogg, acc, flac or mp3.
+  FFMPeg is an open source package wich will allow you to compress .WAV files captured by dBAMonitor into a lighter format like ogg, acc, flac or mp3.
   
-  
+Backup and FTP, to 
+Backup database and send to cloud server. 
+
