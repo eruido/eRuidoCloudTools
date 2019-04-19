@@ -1,4 +1,4 @@
-'Assumed your local sql server database is named ERUIDO
+--Assumed your local sql server database is named ERUIDO
 
 USE ERUIDO
 BEGIN TRANSACTION
