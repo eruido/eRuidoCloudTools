@@ -1,8 +1,9 @@
 -- Call this script connected to your database server
--- Assumed your database is called ERUIDO
+-- dBAMonitor: Settings->Database->Config Connection to actually connect to database server.
+
+-- Assumed your database is called ERUIDO.
 -- Tables NPS2012, NPS2016 must be created
 -- Tables can be created from dBAMonitor at 
--- Settings->Database->Config Connection to actually connect to database server.
 -- Settings->Database->CreateTable, to create table.
 -- Data being inserted into NPS2016 is transferred
 -- to NPS2012. 
