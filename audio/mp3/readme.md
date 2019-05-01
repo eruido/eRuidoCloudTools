@@ -1,4 +1,4 @@
-#eRuido mp3 audio foelder
+#eRuido mp3 audio felder
 
 ###This folder will receive audio files
 ###after being encoded by FFMPEG.
