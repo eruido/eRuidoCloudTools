@@ -13,28 +13,40 @@ In order to make the best use of these scripts you will need the following third
 
 dBAMonitor R8 or higher (get it at www.eruido.og)
   eRuido sonometric software properly configured. 
-  You can download from www.eruido.org. It will run for 24 hours each time. Full featured.
+  You can download from www.eruido.org. 
+It will run for 24 hours each time. Full featured.
 
   dBAMonitor R9 Release candidate 1
 Is READY  for Download. 
 
 Please have installed 
 SQL Server Express
+SSMS Sql server managment studio. 
+Open and Connect SSMS to you local 
+Sql server instance. 
 And create a database for eRuido. 
+Name it ERUIDO. 
 
-You may use SSM to do that. 
-And to keep an eye on
-your databases. 
+Open dBAMonitor, eait it to start
+Measuring and Stop it. 
+Go to Settings/Database and 
+click Config. Set values for your Database
+Connection.
 
-We will use a tool called 
-SQLCMD to run SQL scripts that 
-do the magic. And to hozt 
-SQLCMD we will use . BAT 
-Windows files. 
+Click on Create Table. A new 
+table called NPS2012 will be
+created in your database ERUIDO. 
 
 We will store data captured by 
 dBAMonitor in our local SQL 
-server instance. 
+server instance
+
+To send our local database data
+to cloud server We will use a tool called 
+SQLCMD to run SQL scripts that 
+do the magic. And to host 
+SQLCMD we will use simple .BAT 
+Windows files.
 
 Your database will act as local 
 data buffer. 
@@ -42,7 +54,7 @@ data buffer.
 And from there we will be sending
  noise measurements to the cloud.
 
- Send2cloud.sql holds the T-SQL
+Send2cloud.sql holds the T-SQL
 Sentence to keep local data sincronized
 To the cloud. 
 
@@ -84,3 +96,9 @@ FFMPEG Comand line executable
 Backup and FTP, to 
 Backup database and send to cloud server. 
 
+
+Data can be sent to any cloud provider, please consider
+Using our service and hrlp us grow our solutions
+to help make a quieter planet! 
+
+Stay tunned! 
