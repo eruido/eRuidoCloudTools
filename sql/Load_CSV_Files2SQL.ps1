@@ -1,5 +1,7 @@
 try
 {
+    # Code fragment from
+    # https://octopus.com/blog/sql-server-powershell
     # This is a simple user/pass connection string.
     # Feel free to substitute "Integrated Security=True" for system logins.
     $connString = "Data Source=SQLSERVER\EXPRESS;Database=DBAMONITOR;User ID=DBAMONITOR;Password=******"
@@ -33,6 +35,8 @@ $Folder = './'
 
 $curDir = Get-Location
 
+#Lets make an Ingest folder where csv files will be placed for ingestion to sql server
+mkdir Ingest
 
 foreach($file in Get-ChildItem $curDir -Filter *.txt)
 {
